@@ -1,0 +1,62 @@
+h3 {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  height: 80px;
+  background: peachpuff;
+  border: 4px solid brown;
+}
+
+
+
+/* Edit below this line: */
+
+
+/* Part 1 */
+.one {
+  justify-content: space-between;
+  align-items: row-center;
+}
+
+
+/* Part 2 */
+.two {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+}
+
+
+/* Part 3 */
+.three {
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.three :first-child {
+   align-self: end;
+}
+
+.three :last-child {
+ align-self: end;
+}
+
+
+/* Part 4 */
+.four {
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+  
+}
+
+.four :first-child {
+  align-self: end;
+}
+
+.four :last-child {
+  align-self: start;
+}
